@@ -1,0 +1,63 @@
+PODS:
+  - AMap3DMap (6.5.0):
+    - AMapFoundation (~> 1.5)
+  - AMapFoundation (1.5.5)
+  - AMapLocation (2.6.1):
+    - AMapFoundation (~> 1.4)
+  - AMapNavi (6.5.0):
+    - AMap3DMap (~> 6.4)
+    - AMapFoundation (~> 1.5)
+  - AMapSearch (6.5.0):
+    - AMapFoundation (~> 1.4)
+  - GTCatalog (0.0.1)
+  - GTToolKit (0.0.1):
+    - GTToolKit/LocationManager (= 0.0.1)
+    - GTToolKit/MALocationManager (= 0.0.1)
+    - GTToolKit/MAMapManager (= 0.0.1)
+    - GTToolKit/MANaviManager (= 0.0.1)
+    - GTToolKit/MASearchManager (= 0.0.1)
+  - GTToolKit/LocationManager (0.0.1)
+  - GTToolKit/MALocationManager (0.0.1):
+    - AMapLocation
+  - GTToolKit/MAMapManager (0.0.1):
+    - AMap3DMap
+  - GTToolKit/MANaviManager (0.0.1):
+    - AMapNavi
+  - GTToolKit/MASearchManager (0.0.1):
+    - AMapSearch
+  - GTToolKitExamples (0.0.1):
+    - GTToolKit
+
+DEPENDENCIES:
+  - GTCatalog
+  - GTToolKit (from `../`)
+  - GTToolKitExamples (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AMap3DMap
+    - AMapFoundation
+    - AMapLocation
+    - AMapNavi
+    - AMapSearch
+    - GTCatalog
+
+EXTERNAL SOURCES:
+  GTToolKit:
+    :path: "../"
+  GTToolKitExamples:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AMap3DMap: cbe10cc4302ac3f2817ef4221e1259d7e18d1c2f
+  AMapFoundation: 652bd70ba579f48a98bdf0c74d6e62a89a06ca58
+  AMapLocation: cf024b53dc03663efb4ea4bcce27d4cce58bb97a
+  AMapNavi: b3084406c074bdc2f6f6e80474fa6aa80f4ec0d0
+  AMapSearch: c22d8c98e04aad30615834e567781ec1367c4f36
+  GTCatalog: d6bb60421469aaaf6bee50c6419881427843809a
+  GTToolKit: 1d2265843a4961bb5041189e62742fb3aed9b329
+  GTToolKitExamples: 9315bf4b8862ebeb0f76444104d33877019b5f59
+
+PODFILE CHECKSUM: 3bd47ba3d01f3c62bed74d22fe30f84d549fc31b
+
+COCOAPODS: 1.5.3

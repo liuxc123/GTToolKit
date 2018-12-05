@@ -1,0 +1,855 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03E50A9FEE5B8A7AA65BE47F /* Pods_GTToolCatalog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B5E405D4FF52C28A4581AD /* Pods_GTToolCatalog.framework */; };
+		04A1E6B121B52EEA00D52AE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1E6B021B52EEA00D52AE1 /* AppDelegate.swift */; };
+		04A1E6B321B52EEA00D52AE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1E6B221B52EEA00D52AE1 /* ViewController.swift */; };
+		04A1E6B621B52EEA00D52AE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A1E6B421B52EEA00D52AE1 /* Main.storyboard */; };
+		04A1E6B821B52EEB00D52AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A1E6B721B52EEB00D52AE1 /* Assets.xcassets */; };
+		04A1E6BB21B52EEB00D52AE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A1E6B921B52EEB00D52AE1 /* LaunchScreen.storyboard */; };
+		04A1E6C621B52EEB00D52AE1 /* GTToolCatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1E6C521B52EEB00D52AE1 /* GTToolCatalogTests.swift */; };
+		04A1E6D121B52EEB00D52AE1 /* GTToolCatalogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1E6D021B52EEB00D52AE1 /* GTToolCatalogUITests.swift */; };
+		04C0A21921B6672D00EBD8D1 /* GTToolKitExamples.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 04C0A21721B6672D00EBD8D1 /* GTToolKitExamples.podspec */; };
+		04C0A21A21B6672D00EBD8D1 /* GTToolKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 04C0A21821B6672D00EBD8D1 /* GTToolKit.podspec */; };
+		303ACF3EDDBB9C4B58DCAEC9 /* Pods_GTToolCatalogUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270BF5008688CC3E6E5760E8 /* Pods_GTToolCatalogUITests.framework */; };
+		931910424B6C825389F0EC57 /* Pods_GTToolCatalogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C2353B859322D55F1A04F4C /* Pods_GTToolCatalogTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04A1E6C221B52EEB00D52AE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A1E6A521B52EEA00D52AE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A1E6AC21B52EEA00D52AE1;
+			remoteInfo = GTToolCatalog;
+		};
+		04A1E6CD21B52EEB00D52AE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A1E6A521B52EEA00D52AE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A1E6AC21B52EEA00D52AE1;
+			remoteInfo = GTToolCatalog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04A1E6AD21B52EEA00D52AE1 /* GTToolCatalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTToolCatalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A1E6B021B52EEA00D52AE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04A1E6B221B52EEA00D52AE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04A1E6B521B52EEA00D52AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04A1E6B721B52EEB00D52AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04A1E6BA21B52EEB00D52AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04A1E6BC21B52EEB00D52AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A1E6C121B52EEB00D52AE1 /* GTToolCatalogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTToolCatalogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A1E6C521B52EEB00D52AE1 /* GTToolCatalogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTToolCatalogTests.swift; sourceTree = "<group>"; };
+		04A1E6C721B52EEB00D52AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A1E6CC21B52EEB00D52AE1 /* GTToolCatalogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTToolCatalogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A1E6D021B52EEB00D52AE1 /* GTToolCatalogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTToolCatalogUITests.swift; sourceTree = "<group>"; };
+		04A1E6D221B52EEB00D52AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C0A21721B6672D00EBD8D1 /* GTToolKitExamples.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GTToolKitExamples.podspec; path = ../GTToolKitExamples.podspec; sourceTree = "<group>"; };
+		04C0A21821B6672D00EBD8D1 /* GTToolKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GTToolKit.podspec; path = ../GTToolKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		270BF5008688CC3E6E5760E8 /* Pods_GTToolCatalogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTToolCatalogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E25242C824DD069F54FA73B /* Pods-GTToolCatalogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTToolCatalogUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTToolCatalogUITests/Pods-GTToolCatalogUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		43B5E405D4FF52C28A4581AD /* Pods_GTToolCatalog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTToolCatalog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1EA157BD44DCE6110B6F8D /* Pods-GTToolCatalogUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTToolCatalogUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTToolCatalogUITests/Pods-GTToolCatalogUITests.release.xcconfig"; sourceTree = "<group>"; };
+		651DEA647FD086B53C73A522 /* Pods-GTToolCatalogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTToolCatalogTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTToolCatalogTests/Pods-GTToolCatalogTests.release.xcconfig"; sourceTree = "<group>"; };
+		8C2353B859322D55F1A04F4C /* Pods_GTToolCatalogTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTToolCatalogTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C7EE02B7B984F345D93914F /* Pods-GTToolCatalogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTToolCatalogTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTToolCatalogTests/Pods-GTToolCatalogTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B997E0267F99CB9707CF5D02 /* Pods-GTToolCatalog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTToolCatalog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTToolCatalog/Pods-GTToolCatalog.debug.xcconfig"; sourceTree = "<group>"; };
+		D37F49BA2D829C167AD2C8FF /* Pods-GTToolCatalog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTToolCatalog.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTToolCatalog/Pods-GTToolCatalog.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A1E6AA21B52EEA00D52AE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E50A9FEE5B8A7AA65BE47F /* Pods_GTToolCatalog.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A1E6BE21B52EEB00D52AE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931910424B6C825389F0EC57 /* Pods_GTToolCatalogTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A1E6C921B52EEB00D52AE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303ACF3EDDBB9C4B58DCAEC9 /* Pods_GTToolCatalogUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A1E6A421B52EEA00D52AE1 = {
+			isa = PBXGroup;
+			children = (
+				04C0A21621B6670A00EBD8D1 /* Podspecs */,
+				04A1E6AF21B52EEA00D52AE1 /* GTToolCatalog */,
+				04A1E6C421B52EEB00D52AE1 /* GTToolCatalogTests */,
+				04A1E6CF21B52EEB00D52AE1 /* GTToolCatalogUITests */,
+				04A1E6AE21B52EEA00D52AE1 /* Products */,
+				FA16F984F153BABBC7EF21F9 /* Pods */,
+				38B6E4B9F56C0664E2A1A863 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04A1E6AE21B52EEA00D52AE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A1E6AD21B52EEA00D52AE1 /* GTToolCatalog.app */,
+				04A1E6C121B52EEB00D52AE1 /* GTToolCatalogTests.xctest */,
+				04A1E6CC21B52EEB00D52AE1 /* GTToolCatalogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A1E6AF21B52EEA00D52AE1 /* GTToolCatalog */ = {
+			isa = PBXGroup;
+			children = (
+				04A1E6B021B52EEA00D52AE1 /* AppDelegate.swift */,
+				04A1E6B221B52EEA00D52AE1 /* ViewController.swift */,
+				04A1E6B421B52EEA00D52AE1 /* Main.storyboard */,
+				04A1E6B721B52EEB00D52AE1 /* Assets.xcassets */,
+				04A1E6B921B52EEB00D52AE1 /* LaunchScreen.storyboard */,
+				04A1E6BC21B52EEB00D52AE1 /* Info.plist */,
+			);
+			path = GTToolCatalog;
+			sourceTree = "<group>";
+		};
+		04A1E6C421B52EEB00D52AE1 /* GTToolCatalogTests */ = {
+			isa = PBXGroup;
+			children = (
+				04A1E6C521B52EEB00D52AE1 /* GTToolCatalogTests.swift */,
+				04A1E6C721B52EEB00D52AE1 /* Info.plist */,
+			);
+			path = GTToolCatalogTests;
+			sourceTree = "<group>";
+		};
+		04A1E6CF21B52EEB00D52AE1 /* GTToolCatalogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04A1E6D021B52EEB00D52AE1 /* GTToolCatalogUITests.swift */,
+				04A1E6D221B52EEB00D52AE1 /* Info.plist */,
+			);
+			path = GTToolCatalogUITests;
+			sourceTree = "<group>";
+		};
+		04C0A21621B6670A00EBD8D1 /* Podspecs */ = {
+			isa = PBXGroup;
+			children = (
+				04C0A21821B6672D00EBD8D1 /* GTToolKit.podspec */,
+				04C0A21721B6672D00EBD8D1 /* GTToolKitExamples.podspec */,
+			);
+			name = Podspecs;
+			sourceTree = "<group>";
+		};
+		38B6E4B9F56C0664E2A1A863 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43B5E405D4FF52C28A4581AD /* Pods_GTToolCatalog.framework */,
+				8C2353B859322D55F1A04F4C /* Pods_GTToolCatalogTests.framework */,
+				270BF5008688CC3E6E5760E8 /* Pods_GTToolCatalogUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA16F984F153BABBC7EF21F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B997E0267F99CB9707CF5D02 /* Pods-GTToolCatalog.debug.xcconfig */,
+				D37F49BA2D829C167AD2C8FF /* Pods-GTToolCatalog.release.xcconfig */,
+				9C7EE02B7B984F345D93914F /* Pods-GTToolCatalogTests.debug.xcconfig */,
+				651DEA647FD086B53C73A522 /* Pods-GTToolCatalogTests.release.xcconfig */,
+				2E25242C824DD069F54FA73B /* Pods-GTToolCatalogUITests.debug.xcconfig */,
+				4D1EA157BD44DCE6110B6F8D /* Pods-GTToolCatalogUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A1E6AC21B52EEA00D52AE1 /* GTToolCatalog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A1E6D521B52EEB00D52AE1 /* Build configuration list for PBXNativeTarget "GTToolCatalog" */;
+			buildPhases = (
+				4BB111B47BB5D1DD96D6A912 /* [CP] Check Pods Manifest.lock */,
+				04A1E6A921B52EEA00D52AE1 /* Sources */,
+				04A1E6AA21B52EEA00D52AE1 /* Frameworks */,
+				04A1E6AB21B52EEA00D52AE1 /* Resources */,
+				EBA713DC9305DD2BC8029CDA /* [CP] Embed Pods Frameworks */,
+				C75C5A15F6D892BA96F11A82 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTToolCatalog;
+			productName = GTToolCatalog;
+			productReference = 04A1E6AD21B52EEA00D52AE1 /* GTToolCatalog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04A1E6C021B52EEB00D52AE1 /* GTToolCatalogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A1E6D821B52EEB00D52AE1 /* Build configuration list for PBXNativeTarget "GTToolCatalogTests" */;
+			buildPhases = (
+				87E6D7A74E70DBA40DFB7B76 /* [CP] Check Pods Manifest.lock */,
+				04A1E6BD21B52EEB00D52AE1 /* Sources */,
+				04A1E6BE21B52EEB00D52AE1 /* Frameworks */,
+				04A1E6BF21B52EEB00D52AE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A1E6C321B52EEB00D52AE1 /* PBXTargetDependency */,
+			);
+			name = GTToolCatalogTests;
+			productName = GTToolCatalogTests;
+			productReference = 04A1E6C121B52EEB00D52AE1 /* GTToolCatalogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04A1E6CB21B52EEB00D52AE1 /* GTToolCatalogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A1E6DB21B52EEB00D52AE1 /* Build configuration list for PBXNativeTarget "GTToolCatalogUITests" */;
+			buildPhases = (
+				624399C3A0504570EB614C1D /* [CP] Check Pods Manifest.lock */,
+				04A1E6C821B52EEB00D52AE1 /* Sources */,
+				04A1E6C921B52EEB00D52AE1 /* Frameworks */,
+				04A1E6CA21B52EEB00D52AE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A1E6CE21B52EEB00D52AE1 /* PBXTargetDependency */,
+			);
+			name = GTToolCatalogUITests;
+			productName = GTToolCatalogUITests;
+			productReference = 04A1E6CC21B52EEB00D52AE1 /* GTToolCatalogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A1E6A521B52EEA00D52AE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = liuxc;
+				TargetAttributes = {
+					04A1E6AC21B52EEA00D52AE1 = {
+						CreatedOnToolsVersion = 9.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					04A1E6C021B52EEB00D52AE1 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 04A1E6AC21B52EEA00D52AE1;
+					};
+					04A1E6CB21B52EEB00D52AE1 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 04A1E6AC21B52EEA00D52AE1;
+					};
+				};
+			};
+			buildConfigurationList = 04A1E6A821B52EEA00D52AE1 /* Build configuration list for PBXProject "GTToolCatalog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04A1E6A421B52EEA00D52AE1;
+			productRefGroup = 04A1E6AE21B52EEA00D52AE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A1E6AC21B52EEA00D52AE1 /* GTToolCatalog */,
+				04A1E6C021B52EEB00D52AE1 /* GTToolCatalogTests */,
+				04A1E6CB21B52EEB00D52AE1 /* GTToolCatalogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A1E6AB21B52EEA00D52AE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A1E6BB21B52EEB00D52AE1 /* LaunchScreen.storyboard in Resources */,
+				04C0A21921B6672D00EBD8D1 /* GTToolKitExamples.podspec in Resources */,
+				04A1E6B821B52EEB00D52AE1 /* Assets.xcassets in Resources */,
+				04A1E6B621B52EEA00D52AE1 /* Main.storyboard in Resources */,
+				04C0A21A21B6672D00EBD8D1 /* GTToolKit.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A1E6BF21B52EEB00D52AE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A1E6CA21B52EEB00D52AE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BB111B47BB5D1DD96D6A912 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GTToolCatalog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		624399C3A0504570EB614C1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GTToolCatalogUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87E6D7A74E70DBA40DFB7B76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GTToolCatalogTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C75C5A15F6D892BA96F11A82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GTToolCatalog/Pods-GTToolCatalog-resources.sh",
+				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
+				"${PODS_ROOT}/AMapNavi/AMapNaviKit.framework/AMapNavi.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMapNavi.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTToolCatalog/Pods-GTToolCatalog-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBA713DC9305DD2BC8029CDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GTToolCatalog/Pods-GTToolCatalog-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTCatalog/GTCatalog.framework",
+				"${BUILT_PRODUCTS_DIR}/GTToolKit/GTToolKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTToolKitExamples/GTToolKitExamples.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTCatalog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTToolKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTToolKitExamples.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTToolCatalog/Pods-GTToolCatalog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A1E6A921B52EEA00D52AE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A1E6B321B52EEA00D52AE1 /* ViewController.swift in Sources */,
+				04A1E6B121B52EEA00D52AE1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A1E6BD21B52EEB00D52AE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A1E6C621B52EEB00D52AE1 /* GTToolCatalogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A1E6C821B52EEB00D52AE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A1E6D121B52EEB00D52AE1 /* GTToolCatalogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04A1E6C321B52EEB00D52AE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A1E6AC21B52EEA00D52AE1 /* GTToolCatalog */;
+			targetProxy = 04A1E6C221B52EEB00D52AE1 /* PBXContainerItemProxy */;
+		};
+		04A1E6CE21B52EEB00D52AE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A1E6AC21B52EEA00D52AE1 /* GTToolCatalog */;
+			targetProxy = 04A1E6CD21B52EEB00D52AE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04A1E6B421B52EEA00D52AE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A1E6B521B52EEA00D52AE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04A1E6B921B52EEB00D52AE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A1E6BA21B52EEB00D52AE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04A1E6D321B52EEB00D52AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04A1E6D421B52EEB00D52AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04A1E6D621B52EEB00D52AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B997E0267F99CB9707CF5D02 /* Pods-GTToolCatalog.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = E4RZEW9957;
+				INFOPLIST_FILE = GTToolCatalog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AMapFoundationKit\"",
+					"-framework",
+					"\"AMapLocationKit\"",
+					"-framework",
+					"\"AMapNaviKit\"",
+					"-framework",
+					"\"AMapSearchKit\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"ExternalAccessory\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GTCatalog\"",
+					"-framework",
+					"\"GTToolKit\"",
+					"-framework",
+					"\"GTToolKitExamples\"",
+					"-framework",
+					"\"MAMapKit\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"\"-w\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuxc.GTToolCatalog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "38d794b7-8c98-4d54-a69c-7c1f6403492e";
+				PROVISIONING_PROFILE_SPECIFIER = XCWildcard;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04A1E6D721B52EEB00D52AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D37F49BA2D829C167AD2C8FF /* Pods-GTToolCatalog.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GTToolCatalog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AMapFoundationKit\"",
+					"-framework",
+					"\"AMapLocationKit\"",
+					"-framework",
+					"\"AMapNaviKit\"",
+					"-framework",
+					"\"AMapSearchKit\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"ExternalAccessory\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GTCatalog\"",
+					"-framework",
+					"\"GTToolKit\"",
+					"-framework",
+					"\"GTToolKitExamples\"",
+					"-framework",
+					"\"MAMapKit\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"\"-w\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuxc.GTToolCatalog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04A1E6D921B52EEB00D52AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C7EE02B7B984F345D93914F /* Pods-GTToolCatalogTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E4RZEW9957;
+				INFOPLIST_FILE = GTToolCatalogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuxc.GTToolCatalogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GTToolCatalog.app/GTToolCatalog";
+			};
+			name = Debug;
+		};
+		04A1E6DA21B52EEB00D52AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 651DEA647FD086B53C73A522 /* Pods-GTToolCatalogTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E4RZEW9957;
+				INFOPLIST_FILE = GTToolCatalogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuxc.GTToolCatalogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GTToolCatalog.app/GTToolCatalog";
+			};
+			name = Release;
+		};
+		04A1E6DC21B52EEB00D52AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E25242C824DD069F54FA73B /* Pods-GTToolCatalogUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E4RZEW9957;
+				INFOPLIST_FILE = GTToolCatalogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuxc.GTToolCatalogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GTToolCatalog;
+			};
+			name = Debug;
+		};
+		04A1E6DD21B52EEB00D52AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D1EA157BD44DCE6110B6F8D /* Pods-GTToolCatalogUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E4RZEW9957;
+				INFOPLIST_FILE = GTToolCatalogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuxc.GTToolCatalogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GTToolCatalog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A1E6A821B52EEA00D52AE1 /* Build configuration list for PBXProject "GTToolCatalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A1E6D321B52EEB00D52AE1 /* Debug */,
+				04A1E6D421B52EEB00D52AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A1E6D521B52EEB00D52AE1 /* Build configuration list for PBXNativeTarget "GTToolCatalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A1E6D621B52EEB00D52AE1 /* Debug */,
+				04A1E6D721B52EEB00D52AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A1E6D821B52EEB00D52AE1 /* Build configuration list for PBXNativeTarget "GTToolCatalogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A1E6D921B52EEB00D52AE1 /* Debug */,
+				04A1E6DA21B52EEB00D52AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A1E6DB21B52EEB00D52AE1 /* Build configuration list for PBXNativeTarget "GTToolCatalogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A1E6DC21B52EEB00D52AE1 /* Debug */,
+				04A1E6DD21B52EEB00D52AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04A1E6A521B52EEA00D52AE1 /* Project object */;
+}

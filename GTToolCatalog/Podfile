@@ -1,0 +1,31 @@
+workspace 'GTToolCatalog.xcworkspace'
+platform :ios, '8.0'
+use_frameworks!
+inhibit_all_warnings!
+#install! 'cocoapods', :deterministic_uuids => false
+
+target 'GTToolCatalog' do
+  project 'GTToolCatalog.xcodeproj'
+  pod 'GTCatalog'
+  pod 'GTToolKit', :path => '../'
+  pod 'GTToolKitExamples', :path => '../'
+
+
+end
+
+target 'GTToolCatalogTests' do
+    inherit! :search_paths
+    # Pods for testing
+end
+
+target 'GTToolCatalogUITests' do
+    inherit! :search_paths
+    # Pods for testing
+end
+
+
+## 安装时必须加入
+pre_install do |installer| Pod::Installer::Xcode::TargetValidator.send(:define_method, :verify_no_static_framework_transitive_dependencies) {}
+end
+
+
