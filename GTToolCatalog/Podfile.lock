@@ -11,11 +11,13 @@ PODS:
     - AMapFoundation (~> 1.4)
   - GTCatalog (0.0.1)
   - GTToolKit (0.0.1):
+    - GTToolKit/LocationConverter (= 0.0.1)
     - GTToolKit/LocationManager (= 0.0.1)
     - GTToolKit/MALocationManager (= 0.0.1)
     - GTToolKit/MAMapManager (= 0.0.1)
     - GTToolKit/MANaviManager (= 0.0.1)
     - GTToolKit/MASearchManager (= 0.0.1)
+  - GTToolKit/LocationConverter (0.0.1)
   - GTToolKit/LocationManager (0.0.1)
   - GTToolKit/MALocationManager (0.0.1):
     - AMapLocation
@@ -55,9 +57,9 @@ SPEC CHECKSUMS:
   AMapNavi: b3084406c074bdc2f6f6e80474fa6aa80f4ec0d0
   AMapSearch: c22d8c98e04aad30615834e567781ec1367c4f36
   GTCatalog: d6bb60421469aaaf6bee50c6419881427843809a
-  GTToolKit: 1d2265843a4961bb5041189e62742fb3aed9b329
+  GTToolKit: 1447f1cdeb93466fb63d504952db0f24d2f662bb
   GTToolKitExamples: 9315bf4b8862ebeb0f76444104d33877019b5f59
 
-PODFILE CHECKSUM: 3bd47ba3d01f3c62bed74d22fe30f84d549fc31b
+PODFILE CHECKSUM: d5cc0020024356237c94e668be85fc5d92e62312
 
 COCOAPODS: 1.5.3

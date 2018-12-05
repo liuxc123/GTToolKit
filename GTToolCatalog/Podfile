@@ -2,7 +2,7 @@ workspace 'GTToolCatalog.xcworkspace'
 platform :ios, '8.0'
 use_frameworks!
 inhibit_all_warnings!
-#install! 'cocoapods', :deterministic_uuids => false
+install! 'cocoapods', :deterministic_uuids => false
 
 target 'GTToolCatalog' do
   project 'GTToolCatalog.xcodeproj'

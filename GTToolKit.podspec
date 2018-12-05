@@ -9,13 +9,24 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '8.0'
 	s.requires_arc = true
 
+
+
+    # LocationConverter
+    s.subspec "LocationConverter" do |component|
+        component.ios.deployment_target = '8.0'
+        component.public_header_files = "components/#{component.base_name}/src/*.h"
+        component.source_files = "components/#{component.base_name}/src/*.{h,m}"
+
+    end
+
+
 	# LocationManager
 	s.subspec "LocationManager" do |component|
 	  component.ios.deployment_target = '8.0'
 	  component.public_header_files = "components/#{component.base_name}/src/*.h"
 	  component.source_files = "components/#{component.base_name}/src/*.{h,m}", "components/#{component.base_name}/src/private/*.{h,m}"
 
-        component.frameworks = "CoreLocation"
+      component.frameworks = "CoreLocation"
 	end
 
     # MALocationManager
