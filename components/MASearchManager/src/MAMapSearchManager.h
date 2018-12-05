@@ -6,7 +6,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MASearchResult.h"
 #import <AMapSearchKit/AMapSearchKit.h>
 
 //关键字搜索数据回调block

@@ -37,6 +37,14 @@ const NSString *kSearchErrorBlockKey = @"searchErrorBlockKey";
     return manager;
 }
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        _searchArray = [NSMutableArray array];
+    }
+    return self;
+}
 
 #pragma mark - public methods
 
