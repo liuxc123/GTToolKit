@@ -15,6 +15,9 @@ typedef void(^MASearchErrorBlock)(NSError *error);
 //搜索搜索Id
 typedef NSInteger GTMAMapSearchRequestID;
 
+/**
+ 高德地图搜索管理工具类
+ */
 @interface MAMapSearchManager : NSObject
 
 /** 单例对象 */
