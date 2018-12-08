@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   # Conventions
   s.source_files = 'components/*/examples/*.{h,m,swift}', 'components/*/examples/supplemental/*.{h,m,swift}'
-  s.resources = ['components/*/examples/resources/*']
+  s.resources = ['components/*/examples/resources/**/*']
   s.public_header_files = 'components/*/examples/*.h', 'components/*/examples/supplemental/*.h'
 
 

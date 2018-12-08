@@ -18,6 +18,7 @@ PODS:
     - GTToolKit/MAMapManager (= 0.0.1)
     - GTToolKit/MANaviManager (= 0.0.1)
     - GTToolKit/MASearchManager (= 0.0.1)
+    - GTToolKit/Permissions (= 0.0.1)
   - GTToolKit/Bluetooth (0.0.1)
   - GTToolKit/LocationConverter (0.0.1)
   - GTToolKit/LocationManager (0.0.1)
@@ -29,6 +30,29 @@ PODS:
     - AMapNavi
   - GTToolKit/MASearchManager (0.0.1):
     - AMapSearch
+  - GTToolKit/Permissions (0.0.1):
+    - GTToolKit/Permissions/All (= 0.0.1)
+    - GTToolKit/Permissions/Base (= 0.0.1)
+    - GTToolKit/Permissions/Calendar (= 0.0.1)
+    - GTToolKit/Permissions/Camera (= 0.0.1)
+    - GTToolKit/Permissions/Contact (= 0.0.1)
+    - GTToolKit/Permissions/Health (= 0.0.1)
+    - GTToolKit/Permissions/Location (= 0.0.1)
+    - GTToolKit/Permissions/Microphone (= 0.0.1)
+    - GTToolKit/Permissions/Net (= 0.0.1)
+    - GTToolKit/Permissions/Photo (= 0.0.1)
+    - GTToolKit/Permissions/Reminder (= 0.0.1)
+  - GTToolKit/Permissions/All (0.0.1)
+  - GTToolKit/Permissions/Base (0.0.1)
+  - GTToolKit/Permissions/Calendar (0.0.1)
+  - GTToolKit/Permissions/Camera (0.0.1)
+  - GTToolKit/Permissions/Contact (0.0.1)
+  - GTToolKit/Permissions/Health (0.0.1)
+  - GTToolKit/Permissions/Location (0.0.1)
+  - GTToolKit/Permissions/Microphone (0.0.1)
+  - GTToolKit/Permissions/Net (0.0.1)
+  - GTToolKit/Permissions/Photo (0.0.1)
+  - GTToolKit/Permissions/Reminder (0.0.1)
   - GTToolKitExamples (0.0.1):
     - GTToolKit
 
@@ -59,8 +83,8 @@ SPEC CHECKSUMS:
   AMapNavi: b3084406c074bdc2f6f6e80474fa6aa80f4ec0d0
   AMapSearch: c22d8c98e04aad30615834e567781ec1367c4f36
   GTCatalog: d6bb60421469aaaf6bee50c6419881427843809a
-  GTToolKit: eb8886c2b3bf2c65226827e62757bb4ef32bc56d
-  GTToolKitExamples: 80a88df12a11ee945643eaa72bb917d30e0245e6
+  GTToolKit: bd9745a019755acbfe5195f50e82780eaddf2266
+  GTToolKitExamples: 48c953b3850a256972b9bd56443faf04a32b8dfc
 
 PODFILE CHECKSUM: d5cc0020024356237c94e668be85fc5d92e62312
 
