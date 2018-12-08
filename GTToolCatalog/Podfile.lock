@@ -11,12 +11,14 @@ PODS:
     - AMapFoundation (~> 1.4)
   - GTCatalog (0.0.1)
   - GTToolKit (0.0.1):
+    - GTToolKit/Bluetooth (= 0.0.1)
     - GTToolKit/LocationConverter (= 0.0.1)
     - GTToolKit/LocationManager (= 0.0.1)
     - GTToolKit/MALocationManager (= 0.0.1)
     - GTToolKit/MAMapManager (= 0.0.1)
     - GTToolKit/MANaviManager (= 0.0.1)
     - GTToolKit/MASearchManager (= 0.0.1)
+  - GTToolKit/Bluetooth (0.0.1)
   - GTToolKit/LocationConverter (0.0.1)
   - GTToolKit/LocationManager (0.0.1)
   - GTToolKit/MALocationManager (0.0.1):
@@ -57,9 +59,9 @@ SPEC CHECKSUMS:
   AMapNavi: b3084406c074bdc2f6f6e80474fa6aa80f4ec0d0
   AMapSearch: c22d8c98e04aad30615834e567781ec1367c4f36
   GTCatalog: d6bb60421469aaaf6bee50c6419881427843809a
-  GTToolKit: 1fabbc55377bc8e2e5067f76b07e276c2c236f90
-  GTToolKitExamples: 9315bf4b8862ebeb0f76444104d33877019b5f59
+  GTToolKit: eb8886c2b3bf2c65226827e62757bb4ef32bc56d
+  GTToolKitExamples: 80a88df12a11ee945643eaa72bb917d30e0245e6
 
 PODFILE CHECKSUM: d5cc0020024356237c94e668be85fc5d92e62312
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.0.beta.2

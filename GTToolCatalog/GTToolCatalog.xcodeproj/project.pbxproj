@@ -378,7 +378,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-GTToolCatalog/Pods-GTToolCatalog-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-GTToolCatalog/Pods-GTToolCatalog-resources.sh",
 				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
 				"${PODS_ROOT}/AMapNavi/AMapNaviKit.framework/AMapNavi.bundle",
 			);
@@ -389,7 +389,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTToolCatalog/Pods-GTToolCatalog-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GTToolCatalog/Pods-GTToolCatalog-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EBA713DC9305DD2BC8029CDA /* [CP] Embed Pods Frameworks */ = {
@@ -398,7 +398,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-GTToolCatalog/Pods-GTToolCatalog-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-GTToolCatalog/Pods-GTToolCatalog-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTCatalog/GTCatalog.framework",
 				"${BUILT_PRODUCTS_DIR}/GTToolKit/GTToolKit.framework",
 				"${BUILT_PRODUCTS_DIR}/GTToolKitExamples/GTToolKitExamples.framework",
@@ -411,7 +411,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTToolCatalog/Pods-GTToolCatalog-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GTToolCatalog/Pods-GTToolCatalog-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

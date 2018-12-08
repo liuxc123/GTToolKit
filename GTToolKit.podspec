@@ -67,6 +67,15 @@ Pod::Spec.new do |s|
 
         component.dependency "AMapSearch"
     end
+    
+    # Bluetooth
+    s.subspec "Bluetooth" do |component|
+        component.ios.deployment_target = '8.0'
+        component.public_header_files = "components/#{component.base_name}/src/*.h", "components/#{component.base_name}/src/assists/*.h"
+        component.source_files = "components/#{component.base_name}/src/*.{h,m}", "components/#{component.base_name}/src/private/*.{h,m}", "components/#{component.base_name}/src/assists/*.{h,m}"
+
+        component.frameworks = 'CoreBluetooth'
+    end
 
 
 
