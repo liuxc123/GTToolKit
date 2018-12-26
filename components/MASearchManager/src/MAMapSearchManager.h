@@ -32,7 +32,7 @@ typedef NSInteger GTMAMapSearchRequestID;
  @param errorblock 失败回调
  @return 返回requestID
  */
-- (GTMAMapSearchRequestID *)searchForRequest:(AMapSearchObject *)request
+- (GTMAMapSearchRequestID)searchForRequest:(AMapSearchObject *)request
                                completeBlock:(MASearchCompletionBlock)completeBlock
                                   errorBlock:(MASearchErrorBlock)errorblock;
 

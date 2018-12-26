@@ -9,10 +9,10 @@
 #import "private/GTMASearchRequestIDGenerator.h"
 #import <objc/runtime.h>
 
-const NSString *kSearchRequestIDKey = @"searchRequestIDKey";
-const NSString *kSearchAPIKey = @"searchAPIKey";
-const NSString *kSearchCompleteBlockKey = @"searchCompleteBlockKey";
-const NSString *kSearchErrorBlockKey = @"searchErrorBlockKey";
+NSString *kSearchRequestIDKey = @"searchRequestIDKey";
+NSString *kSearchAPIKey = @"searchAPIKey";
+NSString *kSearchCompleteBlockKey = @"searchCompleteBlockKey";
+NSString *kSearchErrorBlockKey = @"searchErrorBlockKey";
 
 @interface MAMapSearchManager ()<AMapSearchDelegate>
 
@@ -48,7 +48,7 @@ const NSString *kSearchErrorBlockKey = @"searchErrorBlockKey";
 
 #pragma mark - public methods
 
-- (GTMAMapSearchRequestID *)searchForRequest:(AMapSearchObject *)request
+- (GTMAMapSearchRequestID)searchForRequest:(AMapSearchObject *)request
            completeBlock:(MASearchCompletionBlock)completeBlock
               errorBlock:(MASearchErrorBlock)errorblock
 {
@@ -192,7 +192,7 @@ const NSString *kSearchErrorBlockKey = @"searchErrorBlockKey";
     [self.searchArray enumerateObjectsUsingBlock:^(NSDictionary<NSString *,id> * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         if ((GTMAMapSearchRequestID)[obj objectForKey:kSearchRequestIDKey] == requestID) {
             requestInfo = obj;
-            stop == YES;
+            *stop == YES;
         }
     }];
     return requestInfo;
@@ -317,7 +317,7 @@ const NSString *kSearchErrorBlockKey = @"searchErrorBlockKey";
 @implementation AMapSearchObject
 
 - (GTMAMapSearchRequestID)requestID {
-    return objc_getAssociatedObject(self, _cmd);
+    return (long)objc_getAssociatedObject(self, _cmd);
 }
 
 - (void)setRequestID:(GTMAMapSearchRequestID)requestID {

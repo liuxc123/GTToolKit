@@ -24,7 +24,7 @@ target 'GTToolCatalogUITests' do
 end
 
 
-## 安装时必须加入
+# 安装时必须加入
 pre_install do |installer| Pod::Installer::Xcode::TargetValidator.send(:define_method, :verify_no_static_framework_transitive_dependencies) {}
 end
 

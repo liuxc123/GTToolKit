@@ -42,7 +42,7 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)readDataforCharacteristic:(nonnull CBCharacteristic *)chara completion:(void(^)(NSError *))completionBlock;
 
 //Set data notify block for given CBCharacteristic
--(void)setDataNotifyBlock:(void(^)(CBCharacteristic *characteristic))block forCharacteristic:(CBCharacteristic *)chara;
+-(void)setDataNotifyBlock:(nullable void(^)(CBCharacteristic *characteristic))block forCharacteristic:(CBCharacteristic *)chara;
 
 //Set all characteristics' data notify block for peripheral
 -(void)setDataNotifyBlock:(void(^)(CBCharacteristic *characteristic))block forPeripheral:(nonnull CBPeripheral *)peripheral;

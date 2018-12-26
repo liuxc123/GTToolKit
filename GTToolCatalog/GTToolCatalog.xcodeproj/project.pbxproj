@@ -52,7 +52,7 @@
 		04A1E6CC21B52EEB00D52AE1 /* GTToolCatalogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTToolCatalogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A1E6D021B52EEB00D52AE1 /* GTToolCatalogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTToolCatalogUITests.swift; sourceTree = "<group>"; };
 		04A1E6D221B52EEB00D52AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04C0A21721B6672D00EBD8D1 /* GTToolKitExamples.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GTToolKitExamples.podspec; path = ../GTToolKitExamples.podspec; sourceTree = "<group>"; };
+		04C0A21721B6672D00EBD8D1 /* GTToolKitExamples.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GTToolKitExamples.podspec; path = ../GTToolKitExamples.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		04C0A21821B6672D00EBD8D1 /* GTToolKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GTToolKit.podspec; path = ../GTToolKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		270BF5008688CC3E6E5760E8 /* Pods_GTToolCatalogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTToolCatalogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E25242C824DD069F54FA73B /* Pods-GTToolCatalogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTToolCatalogUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTToolCatalogUITests/Pods-GTToolCatalogUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -191,7 +191,7 @@
 				04A1E6AA21B52EEA00D52AE1 /* Frameworks */,
 				04A1E6AB21B52EEA00D52AE1 /* Resources */,
 				EBA713DC9305DD2BC8029CDA /* [CP] Embed Pods Frameworks */,
-				C75C5A15F6D892BA96F11A82 /* [CP] Copy Pods Resources */,
+				8295BCE37B6D189363D8CEA1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -354,6 +354,30 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		8295BCE37B6D189363D8CEA1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GTToolCatalog/Pods-GTToolCatalog-resources.sh",
+				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
+				"${PODS_ROOT}/AMapNavi/AMapNaviKit.framework/AMapNavi.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMapNavi.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GTToolCatalog/Pods-GTToolCatalog-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		87E6D7A74E70DBA40DFB7B76 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -370,26 +394,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C75C5A15F6D892BA96F11A82 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GTToolCatalog/Pods-GTToolCatalog-resources.sh",
-				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
-				"${PODS_ROOT}/AMapNavi/AMapNaviKit.framework/AMapNavi.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMapNavi.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GTToolCatalog/Pods-GTToolCatalog-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EBA713DC9305DD2BC8029CDA /* [CP] Embed Pods Frameworks */ = {
@@ -599,7 +603,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = E4RZEW9957;
 				INFOPLIST_FILE = GTToolCatalog/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -609,14 +613,6 @@
 					"-ObjC",
 					"-l\"c++\"",
 					"-l\"z\"",
-					"-framework",
-					"\"AMapFoundationKit\"",
-					"-framework",
-					"\"AMapLocationKit\"",
-					"-framework",
-					"\"AMapNaviKit\"",
-					"-framework",
-					"\"AMapSearchKit\"",
 					"-framework",
 					"\"AVFoundation\"",
 					"-framework",
@@ -637,12 +633,6 @@
 					"\"GTToolKit\"",
 					"-framework",
 					"\"GTToolKitExamples\"",
-					"-framework",
-					"\"MAMapKit\"",
-					"-framework",
-					"\"OpenGLES\"",
-					"-framework",
-					"\"QuartzCore\"",
 					"-framework",
 					"\"Security\"",
 					"-framework",
@@ -666,7 +656,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GTToolCatalog/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -676,14 +666,6 @@
 					"-ObjC",
 					"-l\"c++\"",
 					"-l\"z\"",
-					"-framework",
-					"\"AMapFoundationKit\"",
-					"-framework",
-					"\"AMapLocationKit\"",
-					"-framework",
-					"\"AMapNaviKit\"",
-					"-framework",
-					"\"AMapSearchKit\"",
 					"-framework",
 					"\"AVFoundation\"",
 					"-framework",
@@ -704,12 +686,6 @@
 					"\"GTToolKit\"",
 					"-framework",
 					"\"GTToolKitExamples\"",
-					"-framework",
-					"\"MAMapKit\"",
-					"-framework",
-					"\"OpenGLES\"",
-					"-framework",
-					"\"QuartzCore\"",
 					"-framework",
 					"\"Security\"",
 					"-framework",
